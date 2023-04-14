@@ -302,25 +302,25 @@ body {
     background: #e1deda;
 }
 .portfolio_text {
-    width: 27%;
+    width: 20%;
     height: 100%;
     background-color: #ffecee;
     padding-left: 20px;
 }
 .portfolio_text2 {
-    width: 27%;
+    width: 20%;
     height: 100%;
     background-color: #61de7d;
     padding-left: 20px;
 }
 .portfolio_text3 {
-    width: 27%;
+    width: 20%;
     height: 100%;
     background-color: white;
     padding-left: 20px;
 }
 .portfolio_text4 {
-    width: 27%;
+    width: 20%;
     height: 100%;
     background-color: #d2cabf;
     padding-left: 20px;
@@ -334,12 +334,12 @@ body {
 }
 
 .photo_right .portfolio_photo {
-    transform: translateX(-59%) translateY(-50%);
+    transform: translateX(-64%) translateY(-50%);
 }
 
 .portfolio_photo {
     width: 85%;
-    height: 68%;
+    height: 77%;
     position: absolute;
     top: -52%;
     left: 94%;
@@ -353,4 +353,12 @@ body {
 
 .portfolio_photo img {
     width: 100%;
+}
+
+.portfolio_text hr {
+    width: 9px;
+    height: 104px;
+    border: none;
+    margin-left: 226px;
+    background-color: #c2271f;
 }

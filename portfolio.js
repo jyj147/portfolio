@@ -1175,7 +1175,7 @@ function update() {
 $(function () {
   // 포트폴리오 1 pc
   $('.portfolio_photo').mouseover(function () {
-    $('.portfolio_photo img').stop().animate({ 'marginTop': '-4000.83px' }, 7500);
+    $('.portfolio_photo img').stop().animate({ 'marginTop': '-3888.83px' }, 7500);
   });
   $('.portfolio_photo').mouseout(function () {
     $('.portfolio_photo img').stop().animate({ 'marginTop': '0px' }, 2000);
