@@ -415,12 +415,12 @@ $(function () {
       dot.eq(5).addClass("active");
       dot.eq(5).find("a").css({ "background": "#a0ef08" });
     }
-    if (wScroll >= contents.eq(6).offset().top) {
-      dot.removeClass("active");
-      dot.find("a").css({ "background": "rgba(0,0,0,0.5)" });
-      dot.eq(6).addClass("active");
-      dot.eq(6).find("a").css({ "background": "#9517ff" });
-    }
+    // if (wScroll >= contents.eq(6).offset().top) {
+    //   dot.removeClass("active");
+    //   dot.find("a").css({ "background": "rgba(0,0,0,0.5)" });
+    //   dot.eq(6).addClass("active");
+    //   dot.eq(6).find("a").css({ "background": "#9517ff" });
+    // }
 
   });
 
@@ -1175,10 +1175,11 @@ function update() {
 $(function () {
   // 포트폴리오 1 pc
   $('.portfolio_photo').mouseover(function () {
-    $('.portfolio_photo img').stop().animate({ 'marginTop': '-3888.83px' }, 7500);
+    var height = $(this).children('img').height() - $(this).height();
+    $(this).children('img').stop().animate({ 'marginTop': -height }, 7500);
   });
   $('.portfolio_photo').mouseout(function () {
-    $('.portfolio_photo img').stop().animate({ 'marginTop': '0px' }, 2000);
+    $(this).children('img').stop().animate({ 'marginTop': '0px' }, 2000);
 
 
   })

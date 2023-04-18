@@ -301,48 +301,43 @@ body {
     position: relative;
     background: #e1deda;
 }
-.portfolio_text {
+
+.text_left{
+    float:left;
     width: 20%;
     height: 100%;
-    background-color: #ffecee;
     padding-left: 20px;
+    position: relative;
+}
+.portfolio_text {
+    background-color: #ffecee;
+
 }
 .portfolio_text2 {
-    width: 20%;
-    height: 100%;
     background-color: #61de7d;
-    padding-left: 20px;
 }
 .portfolio_text3 {
-    width: 20%;
-    height: 100%;
     background-color: white;
-    padding-left: 20px;
 }
 .portfolio_text4 {
-    width: 20%;
-    height: 100%;
     background-color: #d2cabf;
-    padding-left: 20px;
 }
 .photo_right {
-    float: left;
-    width: 73%;
+    float: right;
+    width: 80%;
     height: 100%;
     position: relative;
     padding-right: 150px;
 }
 
-.photo_right .portfolio_photo {
-    transform: translateX(-64%) translateY(-50%);
-}
 
 .portfolio_photo {
     width: 85%;
     height: 77%;
     position: absolute;
-    top: -52%;
-    left: 94%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 10px 50px 10px 50px;
     overflow: hidden;
     cursor: pointer;
@@ -355,10 +350,25 @@ body {
     width: 100%;
 }
 
-.portfolio_text hr {
+.text_left hr {
     width: 9px;
-    height: 104px;
+    height: 101px;
     border: none;
-    margin-left: 226px;
+    position: absolute;
+    left: 226px;
+}
+.portfolio_text hr{
     background-color: #c2271f;
+}
+
+.portfolio_text2 hr{
+    background-color: #33a84f;
+}
+
+.portfolio_text3 hr{
+    background-color: #dedcdb;
+}
+
+.portfolio_text4 hr{
+    background-color: #93897d;
 }
