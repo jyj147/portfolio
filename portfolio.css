@@ -379,8 +379,24 @@ body {
     width: 80px;
     height: 100px;
     margin: px 0px 0px 170px;
-    /* margin-top: 170px; */
+    font-weight: bold;
     position: absolute;
     margin-top: 107px;
     margin-left: 177px;
+}
+#PFF{
+    margin-top: 249px;
+    position: absolute;
+    margin-left: 154px;
+    color: black;
+}
+
+#PFF h3{
+    font-size: 23px;
+    font-weight: normal;
+}
+
+#PFF h2{
+    font-size: 30px;
+    margin-bottom: 20px;
 }
