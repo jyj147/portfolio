@@ -484,6 +484,7 @@ body {
 
 #p4 p {
     font-size: 14px;
+    margin-left: -20px;
 }
 
 .text_left button {
