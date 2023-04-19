@@ -469,20 +469,40 @@ body {
     background-color: #c1c1c1;
 }
 
-#p1 p{
+#p1 p {
     font-size: 14px;
 }
 
-#p2 p{
+#p2 p {
     font-size: 14px;
     margin-left: -23px;
 }
 
-#p3 p{
+#p3 p {
     font-size: 14px;
 }
 
-#p4 p{
+#p4 p {
     font-size: 14px;
 }
 
+.text_left button {
+    width: 77px;
+    height: 33px;
+    font-size: 21px;
+    border-radius: 7px;
+    border: 1px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.text_left .BTN {
+    width: 77px;
+    height: 33px;
+    font-size: 21px;
+    border-radius: 7px;
+    border: 3px;
+    color: black;
+    background-color: white;
+}
