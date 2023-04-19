@@ -495,6 +495,7 @@ body {
     color: white;
     margin-top: 35px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 #p4 button{
