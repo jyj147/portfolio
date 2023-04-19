@@ -362,7 +362,7 @@ body {
     height: 101px;
     border: none;
     position: absolute;
-    left: 226px;
+    left: 184px;
 }
 
 .portfolio_text hr {
@@ -386,17 +386,16 @@ body {
     color: black;
     width: 80px;
     height: 100px;
-    margin: px 0px 0px 170px;
     font-weight: bold;
     position: absolute;
     margin-top: 107px;
-    margin-left: 177px;
+    margin-left: 121px;
 }
 
 #PFF {
     margin-top: 249px;
     position: absolute;
-    margin-left: 154px;
+    margin-left: 22px;
     color: black;
 }
 
@@ -469,3 +468,21 @@ body {
 #p4 .color span:nth-of-type(3) {
     background-color: #c1c1c1;
 }
+
+#p1 p{
+    font-size: 14px;
+}
+
+#p2 p{
+    font-size: 14px;
+    margin-left: -23px;
+}
+
+#p3 p{
+    font-size: 14px;
+}
+
+#p4 p{
+    font-size: 14px;
+}
+
