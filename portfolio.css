@@ -556,3 +556,13 @@ body {
     bottom: 1%;
     right: 4%;
 }
+
+.mobile_photo .img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 58px 0 0 19px;
+    width: 192px;
+    height: 80%;
+    overflow: hidden;
+}
