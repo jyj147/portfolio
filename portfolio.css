@@ -548,3 +548,11 @@ body {
     background-color: white;
     border: 2px solid #c2271f;
 }
+
+.mobile img {
+    width: 230px;
+    position: absolute;
+    z-index: 5;
+    bottom: 1%;
+    right: 4%;
+}
