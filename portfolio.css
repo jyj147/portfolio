@@ -609,3 +609,13 @@ body {
     padding: 2% 4%;
     border-radius: 40px 200px;
 }
+
+.About_mebox .title {
+    height: 12%;
+}
+
+.About_mebox .title h2 {
+    font-size: 30px;
+    color: black;
+    float: left;
+}
