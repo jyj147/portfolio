@@ -1187,7 +1187,7 @@ $(function () {
 
 // 포트폴리오 1 모바일
 $('.mobile_photo').mouseover(function () {
-  $('.mobile_photo .img2 img').stop().animate({ 'marginTop': '-1780px' }, 5000);
+  $('.mobile_photo .img2 img').stop().animate({ 'marginTop': '-920px' }, 3000);
 });
 $('.mobile_photo').mouseout(function () {
   $('.mobile_photo .img2 img').stop().animate({ 'marginTop': '0px' }, 2000);
