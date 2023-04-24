@@ -382,14 +382,15 @@ body {
 }
 
 .PF {
-    font-size: 80px;
+    font-size: 89px;
     color: black;
     width: 80px;
     height: 100px;
     font-weight: bold;
     position: absolute;
-    margin-top: 107px;
-    margin-left: 121px;
+    margin-top: 117px;
+    margin-left: 119px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #PFF {
@@ -402,11 +403,13 @@ body {
 #PFF h3 {
     font-size: 23px;
     font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #PFF h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .color span {
