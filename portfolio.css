@@ -663,7 +663,10 @@ body {
     margin: 48px 0;
 }
 .About_mebox .text table{
-    display: inline;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: left;
 }
 .About_mebox .text table th {
     width: 100px;
@@ -677,4 +680,8 @@ body {
     vertical-align: top;
     color: black;
     font-size: 14px;
+}
+
+.About_mebox .text table tr {
+    height: 40px;
 }
