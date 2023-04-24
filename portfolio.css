@@ -504,6 +504,7 @@ body {
 
 #p4 button{
     background-color: #817166;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #p4 .BTN{
@@ -514,6 +515,7 @@ body {
 
 #p2 button{
     background-color: #33a84f;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #p2 .BTN{
@@ -524,6 +526,7 @@ body {
 
 #p3 button{
     background-color: #978170;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #p3 .BTN{
@@ -533,17 +536,19 @@ body {
 }
 
 #p4 button{
-    background-color: #817166;;
+    background-color: #817166;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #p4 .BTN{
     color: black;
     background-color: white;
-    border: 2px solid #817166;;
+    border: 2px solid #817166;
 }
 
 #p1 button{
     background-color: #c2271f;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #p1 .BTN{
@@ -556,8 +561,6 @@ body {
     width: 230px;
     height: 450px;
     position: absolute;
-    /* bottom: 8%;
-    right: 4%; */
     bottom: 1%;
     right: 4%;
     overflow: hidden;
@@ -570,8 +573,6 @@ body {
     width: 230px;
     position: absolute;
     z-index: 5;
-    /* bottom: 1%;
-    right: 4%; */
     top:0;
     left: 0;
 }
