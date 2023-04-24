@@ -415,13 +415,6 @@ $(function () {
       dot.eq(5).addClass("active");
       dot.eq(5).find("a").css({ "background": "#a0ef08" });
     }
-    // if (wScroll >= contents.eq(6).offset().top) {
-    //   dot.removeClass("active");
-    //   dot.find("a").css({ "background": "rgba(0,0,0,0.5)" });
-    //   dot.eq(6).addClass("active");
-    //   dot.eq(6).find("a").css({ "background": "#9517ff" });
-    // }
-
   });
 
   return false;
@@ -470,11 +463,7 @@ $(function () {
 
 
 
-
-
-
 // Made with Zdog
-
 
 var BokehShape = Zdog.Shape.subclass({
   bokehSize: 5,

@@ -251,6 +251,7 @@ h1 .PO {
 .HA {
     font-size: 29px;
     margin-top: 37px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
@@ -349,8 +350,6 @@ body {
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 0 20px 4px #676767;
-    /* background-color: red; */
-    /* display: flex; */
 }
 
 .portfolio_photo img {
