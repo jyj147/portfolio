@@ -646,19 +646,21 @@ body {
 .About_mebox .text h2{
     color: black;
     font-size: 30px;
+    margin: -4px 0px;
 }
 .About_mebox .text h4 {
     font-size: 20px;
     font-weight: normal;
-    margin: 6px 0;
+    margin: 15px 0;
     color: black;
-    line-height: 3;
+    line-height: 2;
 }
 
 .About_mebox .text p {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 32px;
     color: black;
+    margin: 48px 0;
 }
 .About_mebox .text table{
     display: inline;
