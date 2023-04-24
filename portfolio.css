@@ -627,3 +627,51 @@ body {
     float: left;
     
 }
+
+.About_mebox .photo {
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.About_mebox .text {
+    width: 70%;
+    height: 100%;
+    float: right;
+    padding-left: 30px;
+    color: black;
+}
+.About_mebox .text h2{
+    color: black;
+    font-size: 30px;
+}
+.About_mebox .text h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 6px 0;
+    color: black;
+    line-height: 3;
+}
+
+.About_mebox .text p {
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+}
+.About_mebox .text table{
+margin-top: 105px;
+}
+.About_mebox .text table th {
+    width: 100px;
+    vertical-align: top;
+    color: black;
+    font-size: 17px;
+}
+
+
+.About_mebox .text table td {
+    vertical-align: top;
+    color: black;
+    font-size: 14px;
+}
