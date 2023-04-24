@@ -381,15 +381,14 @@ body {
 }
 
 .PF {
-    font-size: 89px;
+    font-size: 94px;
     color: black;
     width: 80px;
     height: 100px;
-    font-weight: bold;
     position: absolute;
-    margin-top: 117px;
-    margin-left: 119px;
-    font-family: 'Ubuntu', sans-serif;
+    margin-top: 110px;
+    margin-left: 121px;
+    font-family: 'Concert One', cursive;
 }
 
 #PFF {
@@ -400,9 +399,8 @@ body {
 }
 
 #PFF h3 {
-    font-size: 23px;
-    font-weight: normal;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 #PFF h2 {
@@ -472,23 +470,24 @@ body {
 }
 
 #p1 p {
-    font-size: 14px;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 #p2 p {
-    font-size: 14px;
-    margin-left: -23px;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 #p3 p {
-    font-size: 14px;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 #p4 p {
-    font-size: 14px;
-    margin-left: -20px;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
-
 .text_left button {
     width: 77px;
     height: 33px;
