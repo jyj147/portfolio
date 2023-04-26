@@ -487,6 +487,7 @@ body {
 #p4 p {
     font-size: 15px;
     font-family: 'IBM Plex Sans KR', sans-serif;
+    margin-left: 14px;
 }
 .text_left button {
     width: 77px;
@@ -620,6 +621,7 @@ body {
     font-size: 30px;
     color: black;
     float: left;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .About_mebox .sub_title h3 {
@@ -627,6 +629,7 @@ body {
     font-size: 20px;
     color: black;
     float: left;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
@@ -644,11 +647,13 @@ body {
     padding-left: 30px;
     color: black;
     position: relative;
+    margin-top: -37%;
 }
 .About_mebox .text h2{
     color: black;
     font-size: 30px;
     margin: -4px 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .About_mebox .text h4 {
     font-size: 20px;
@@ -656,24 +661,28 @@ body {
     margin: 15px 0;
     color: black;
     line-height: 2;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .About_mebox .text p {
     font-size: 20px;
     line-height: 32px;
     color: black;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 .About_mebox .text table{
     width: 100%;
     height: auto;
     margin-top: 50px;
     text-align: left;
+    margin-left: 12%;
 }
 .About_mebox .text table th {
     width: 100px;
     vertical-align: top;
     color: black;
     font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -681,8 +690,19 @@ body {
     vertical-align: top;
     color: black;
     font-size: 14px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .About_mebox .text table tr {
     height: 40px;
+}
+
+.photo img{
+    width: 302px;
+    height: 409px;
+    float: left;
+    /* margin: -45px 0px; */
+    margin-top: 70px;
+    margin-left: -89%;
+    margin-right: 33%;
 }
