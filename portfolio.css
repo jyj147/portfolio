@@ -578,16 +578,16 @@ body {
 
 .mobile_photo .img2{
     width: 98%;
-    height: 90%;
+    height: 341px;
     position: absolute;
-    top: 0px;
+    top: 57px;
     left: 0;
     overflow: hidden;
 }
 
 .mobile_photo .img2 img {
     position: absolute;
-    top: 59px;
+    top: 0px;
     left: 20px;
     width: 192px;
     z-index: 1;
@@ -703,6 +703,6 @@ body {
     float: left;
     /* margin: -45px 0px; */
     margin-top: 70px;
-    margin-left: -89%;
+    margin-left: -73%;
     margin-right: 33%;
 }

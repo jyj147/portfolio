@@ -1164,7 +1164,7 @@ function update() {
 $(function () {
   // 포트폴리오 1 pc
   $('.portfolio_photo').mouseover(function () {
-    var height = $(this).children('img').height() - $(this).height();
+    let height = $(this).children('img').height() - $(this).height();
     $(this).children('img').stop().animate({ 'marginTop': -height }, 7500);
   });
   $('.portfolio_photo').mouseout(function () {
@@ -1176,7 +1176,9 @@ $(function () {
 
 // 포트폴리오 1 모바일
 $('.mobile_photo').mouseover(function () {
-  $('.mobile_photo .img2 img').stop().animate({ 'marginTop': '-920px' }, 3000);
+  let height= $(this).find('.img2 img').height() - $(this).find('.img2').height();
+  console.log(height)
+  $('.mobile_photo .img2 img').stop().animate({ 'marginTop': -height }, 3000);
 });
 $('.mobile_photo').mouseout(function () {
   $('.mobile_photo .img2 img').stop().animate({ 'marginTop': '0px' }, 2000);
